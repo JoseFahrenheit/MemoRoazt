@@ -11,7 +11,7 @@ const bodyElement = document.querySelector('body');
 
 let firstCardClicked, secondCardClicked, firstCardClasses, secondCardClasses, maxMatches, matches, gamesPlayed, attempts, accuracy;
 
-const cardDeck = ['buster', 'nk', 'desmond', 'fahren', 'buster__two', 'desmond__two', 'nk__two', 'fahren__two', 'logo', 'buster', 'nk', 'desmond', 'fahren', 'buster__two', 'desmond__two', 'nk__two', 'fahren__two', 'logo'];
+const cardDeck = ['buster', 'nk', 'desmond', 'fahren', 'buster__two', 'desmond__two', 'nk__two', 'fahren__two', 'portada', 'buster', 'nk', 'desmond', 'fahren', 'buster__two', 'desmond__two', 'nk__two', 'fahren__two', 'portada'];
 
 accuracy = 0;
 attempts = 0;
