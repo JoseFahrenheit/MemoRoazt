@@ -1,6 +1,5 @@
 const mainElement = document.getElementById("gameCards");
 const modalElement = document.querySelector('.modal');
-const resetButton = document.querySelector('.reset');
 const gamesScore = document.querySelector('.games-score');
 const attemptsScore = document.querySelector('.attempts-score');
 const accuracyScore = document.querySelector('.accuracy-score');
@@ -21,7 +20,6 @@ gamesPlayed = 0;
 
 mainElement.addEventListener('click', handleClick);
 shuffleButton.addEventListener('click', shuffleCards);
-resetButton.addEventListener('click', shuffleCards);
 closeButton.addEventListener('click', dismissModal);
 
 function handleClick(event) {
@@ -72,13 +70,16 @@ function handleClick(event) {
 }
 
 function dismissModal () {
-  modalElement.classList.add("hidden");
-  matchesScore.textContent = 0;
-  attemptsScore.textContent = 0;
+  matches = 0;
+  attempts = 0;
+  accuracy = 0;
+  matchesScore.textContent = matches;
+  attemptsScore.textContent = attempts;
   accuracyScore.textContent = '0.00%';
+  modalElement.classList.add("hidden");
   resetCards();
-
 }
+
 
 function resetCards () {
   mainElement.innerHTML = '';

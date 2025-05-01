@@ -267,58 +267,6 @@
   transform: translateY(4px);
 }
 
-.reset {
-  font-family: "Audiowide", "Inconsolata", monospace;
-  font-size: 1.75rem;
-  height: 50px;
-  width: 250px;
-  background-color: #C3A337;
-  border-width: 0;
-  border-radius: 10px;
-  border: 0.5px ridge black;
-  outline: none;
-  cursor: pointer;
-  font-weight: bold;
-}
-
-.reset span {
-  cursor: pointer;
-  display: inline-block;
-  position: relative;
-  transition: 0.5s;
-}
-
-.reset span:after {
-  content: '\00bb';
-  position: absolute;
-  opacity: 0;
-  top: 0;
-  right: -20px;
-  transition: 0.5s;
-}
-
-.reset:hover {
-  background-color: #6D5A1F;
-  animation: shake 0.5s;
-  animation-iteration-count: infinite;
-  color: #EA2B1F;
-}
-
-.reset:hover span {
-  padding-right: 25px;
-}
-
-.reset:hover span:after {
-  opacity: 1;
-  right: 0;
-}
-
-.reset:active {
-  background-color: #6D5A1F;
-  box-shadow: 0 5px #666;
-  transform: translateY(4px);
-}
-
 .spotify-button {
   display: inline-block;
   margin-top: 20px;
@@ -437,12 +385,6 @@
     font-size: 0.8rem;
   }
 
-  .reset {
-    font-size: 0.75rem;
-    height: 20px;
-    width: 40%;
-  }
-
   .close {
     font-size: 1.5rem;
   }
@@ -543,12 +485,6 @@
     width: 350px;
   }
 
-  .reset {
-    font-size: 0.9rem;
-    height: 30px;
-    width: 40%;
-  }
-
   .close {
     font-size: 1.75rem;
   }
@@ -597,12 +533,6 @@
 
   .modal-text h3 {
     font-size: 1.15rem;
-  }
-
-  .reset {
-    font-size: 0.9rem;
-    height: 30px;
-    width: 30%;
   }
 
   .close {
@@ -665,12 +595,6 @@
 
   .modal-text h3 {
     font-size: 1.25rem;
-  }
-
-  .reset {
-    font-size: 1rem;
-    height: 30px;
-    width: 30%;
   }
 
   .close {
@@ -741,12 +665,6 @@
     font-size: 1.5rem;
   }
 
-  .reset {
-    font-size: 1rem;
-    height: 40px;
-    width: 25%;
-  }
-
   .close {
     font-size: 3rem;
   }
@@ -804,12 +722,6 @@
     font-size: 2rem;
   }
 
-  .reset {
-    font-size: 1.25rem;
-    height: 40px;
-    width: 20%;
-  }
-
   .close {
     font-size: 3.5rem;
   }
@@ -860,12 +772,6 @@
 
   .modal-text h3 {
     font-size: 2.25rem;
-  }
-
-  .reset {
-    font-size: 1.5rem;
-    height: 40px;
-    width: 22%;
   }
 
   .close {
