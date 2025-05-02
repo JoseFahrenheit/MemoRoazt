@@ -7,7 +7,7 @@ La página web de MemoRoazt es un juego para promocionar el lanzamiento del disc
 # Proyecto desplegado
 
 Puedes ver la versión final del proyecto en GitHub Pages aquí:
-https://josefahrenheit.github.io/web_project_around/
+https://josefahrenheit.github.io/MemoRoazt/
 
 ## Características del proyecto
 
