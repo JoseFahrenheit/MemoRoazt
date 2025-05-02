@@ -1,6 +1,6 @@
 # MemoRoazt
 
-# Fahren Proyecto: MemorRoazt
+# Fahren Proyecto: MemoRoazt
 
 La página web de MemoRoazt es un juego para promocionar el lanzamiento del disco Eros Club de la banda Roazt. Fue creado utilizando HTML, CSS, JAVA y Github con base a busquedas en internet.
 
